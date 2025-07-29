@@ -1,0 +1,39 @@
+{
+  "name": "hospital_management_system_backend",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  
+  "type": "module",
+ "scripts": {
+  "dev": "node --loader ts-node/esm src/index.ts"
+},
+
+
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaushal320/HOSPITAL_MANAGEMENT_SYSTEM_BACKEND.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaushal320/HOSPITAL_MANAGEMENT_SYSTEM_BACKEND/issues"
+  },
+  "homepage": "https://github.com/kaushal320/HOSPITAL_MANAGEMENT_SYSTEM_BACKEND#readme",
+  "description": "",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.5"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.1.0",
+    "nodemon": "^3.1.10",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  }
+}
