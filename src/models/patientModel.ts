@@ -20,7 +20,7 @@ const patientSchema: Schema = new Schema(
     address: { type: String, required: true },
   },
   {
-    timestamps: true, 
+    timestamps: true,
   }
 );
 
